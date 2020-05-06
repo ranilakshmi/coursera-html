@@ -1,0 +1,69 @@
+body{
+    background-color: orange;
+}
+header{
+    background-color: gold;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+.navbar-brand h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow:1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding:25px;
+}
+.navbar-toggle{
+    position: relative;
+    float:right;
+    padding: 9 px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border:1px solid transparent;
+    border-radius:4px;
+}
+.navbar-toggle .icon-bar{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+}
+@media(min-width:768px){
+    .navbar-toggle{
+        display:none;
+    }
+}
+.navbar-nav{
+    margin:7.5px -15px;
+}
+.navbar-nav>li>a{
+    paddding-top:10px;
+    padding-bottom:10px;
+    line-height:20px;
+}
+@media(max-width:767px){
+.navbar-toggle{
+    padding-top: 10px;
+    padding-bottom:10px;
+    border:2px;
+    border-color: black;
+}}
+.c1{
+    color:blue;
+    border-width: 5px;
+    border-color: black;
+    background-color:yellow;
+  
+}
+.c{
+    color: royalblue;
+    padding:15px;
+}
